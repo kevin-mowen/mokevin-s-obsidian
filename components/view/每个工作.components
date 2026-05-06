@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "id": "5eb8e164-4454-423c-8bb1-74271d24a41a",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2025-10-21T13:26:59.502Z",
+      "updateAt": "2025-12-07T13:02:24.465Z",
+      "components": [
+        {
+          "componentId": "0df5ebbf-6db4-468d-bfe7-adb587a22c44",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 0,
+              "w": 3,
+              "h": 10
+            }
+          }
+        },
+        {
+          "componentId": "b5378428-6e0a-4af9-9a1b-ac0aad048e1d",
+          "layout": {
+            "mobile": {
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            "laptop": {
+              "x": 0,
+              "y": 10,
+              "w": 12,
+              "h": 33
+            }
+          }
+        }
+      ],
+      "layoutType": "grid",
+      "locked": false,
+      "layoutOptions": {}
+    },
+    {
+      "id": "0df5ebbf-6db4-468d-bfe7-adb587a22c44",
+      "type": "time",
+      "titleAlign": "center",
+      "tabTitle": "时间",
+      "maxWidthRatio": -1,
+      "showBorder": true,
+      "showTitle": true,
+      "showShadow": true,
+      "createAt": "2025-10-21T13:28:10.714Z",
+      "updateAt": "2025-12-07T13:04:41.002Z",
+      "showLunar": true,
+      "hideDateInfo": false,
+      "hideSeconds": true,
+      "hideProgress": false,
+      "semanticTime": true,
+      "backgroundImage": {
+        "fit": "contains",
+        "blurDegree": 73
+      }
+    },
+    {
+      "id": "3c42a7f2-def8-48e0-bf67-56018bc5ce38",
+      "type": "quote",
+      "titleAlign": "center",
+      "tabTitle": "摘录",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2025-12-07T12:59:32.527Z",
+      "updateAt": "2025-12-07T13:04:49.551Z",
+      "contentType": "page",
+      "coverType": "none",
+      "filter": {
+        "id": "ce219d9c-a791-4f91-ac1d-9dfdfcaa593b",
+        "type": "group",
+        "operator": "and",
+        "conditions": []
+      },
+      "maxHeight": 300,
+      "coverValue": "/Users/mokevin/Documents/Obsidian Vault/AI/fastgpt/主服务/01-1-iframe嵌入指南.md"
+    },
+    {
+      "id": "b5378428-6e0a-4af9-9a1b-ac0aad048e1d",
+      "type": "multi",
+      "titleAlign": "center",
+      "tabTitle": "组合",
+      "maxWidthRatio": -1,
+      "showBorder": false,
+      "showTitle": true,
+      "showShadow": false,
+      "createAt": "2025-12-07T13:02:07.383Z",
+      "updateAt": "2025-12-07T13:04:41.002Z",
+      "components": [
+        {
+          "componentId": "3c42a7f2-def8-48e0-bf67-56018bc5ce38"
+        }
+      ],
+      "layoutType": "tab",
+      "locked": false,
+      "layoutOptions": {}
+    }
+  ],
+  "rootComponentId": "5eb8e164-4454-423c-8bb1-74271d24a41a",
+  "version": 3.1,
+  "modified": 1761054697215
+}

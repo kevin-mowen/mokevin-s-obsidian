@@ -1,0 +1,656 @@
+{
+  "feConfigs": {
+    "show_git": false,
+    "show_pay": false,
+    "show_openai_account": false,
+    "show_promotion": false,
+    "show_team_chat": false,
+    "show_compliance_copywriting": false,
+    "show_aiproxy": false,
+    "show_coupon": false,
+    "show_dataset_feishu": false,
+    "show_dataset_yuque": false,
+    "show_publish_feishu": false,
+    "show_publish_dingtalk": false,
+    "show_publish_offiaccount": false,
+    "mcpServerProxyEndpoint": "http://20.201.9.111:3005",
+    "customApiDomain": "http://20.201.0.27:9090/llm/api"
+  },
+  "systemEnv": {
+    "vectorMaxProcess": 20,
+    "qaMaxProcess": 10,
+    "vlmMaxProcess": 10,
+    "tokenWorkers": 30,
+    "hnswEfSearch": 100,
+    "customPdfParse": {
+      "url": "",
+      "key": "",
+      "doc2xKey": "",
+      "price": 0
+    },
+    "indexMaxProcess": 10,
+    "close_auth": false,
+    "commonApiKey": "star-zhdCOw47Es9nyz6feeS5HbzMWM12VPenrJntJniANT5vgJmT1hvvK2Vr4M",
+    "casHost": "https://www.sso.cib",
+    "authKey": "93e7968a792a059f9bf336a80421362e",
+    "publicPerUsernames": ["root", "018883", "admin_ywxqc_manager", "015039", "931516", "016938", "014336", "017637"],
+    "openapiPrefix": "star",
+    "uploadFileMaxSize": 10,
+    "syncContactsToDatabase": true,
+    "showLogsTable": true,
+    "adminIps": [
+      "20.1.86.212",
+      "20.1.86.210",
+      "21.5.36.69",
+      "20.1.86.204",
+      "20.1.64.13",
+      "20.1.86.64",
+      "20.1.74.100",
+      "20.1.65.178", 
+      "20.1.86.173",
+      "21.1.23.146",
+      "21.1.25.179",
+      "21.1.25.84",
+      "21.1.16.48",
+      "20.1.74.87",
+      "20.1.66.162",
+      "168.1.2.12",
+      "20.1.86.11",
+      "20.1.86.145",
+      "20.1.66.59",
+      "21.1.55.240",
+      "20.1.66.149",
+      "20.1.65.18",
+      "21.1.55.238",
+      "20.1.65.26",
+      "20.1.65.36",
+      "21.1.55.179",
+      "20.1.65.20",
+      "21.1.55.187",
+      "20.1.65.189",
+      "21.1.55.186",
+      "168.31.1.197",
+      "20.1.86.18",
+      "168.55.3.5",
+      "166.3.90.107",
+      "20.1.86.60",
+      "168.35.6.152",
+      "15.100.8.123",
+      "20.1.74.152",
+      "21.2.71.161",
+      "168.15.5.23",
+      "168.15.5.18",
+      "168.50.3.191",
+      "168.50.3.127",
+      "168.50.3.247",
+      "168.32.7.119",
+      "20.1.65.89",
+      "20.1.86.65",
+      "168.2.78.109",
+      "20.11.0.193",
+      "168.2.78.11",
+      "168.2.78.22",
+      "168.2.78.71",
+      "168.2.78.109",
+      "20.1.65.115",
+      "168.58.7.14",
+      "168.58.7.17",
+      "168.1.2.53",
+      "168.18.2.150",
+      "168.12.1.75",
+      "20.1.86.69",
+      "168.47.2.106",
+      "168.51.3.40",
+      "168.51.3.143",
+      "168.32.5.115",
+      "168.32.19.120",
+      "168.32.19.108",
+      "168.42.1.14",
+      "168.42.1.222",
+      "168.42.2.181",
+      "168.60.1.21",
+      "168.60.1.11",
+      "168.51.3.43",
+      "168.51.3.210",
+      "168.51.3.36",
+      "168.51.1.48",
+      "168.51.3.186",
+      "168.52.0.225",
+      "168.52.1.197",
+      "168.11.5.8",
+      "20.11.161.98",
+      "168.11.4.170",
+      "168.11.5.210",
+      "168.11.5.92",
+      "168.11.30.63",
+      "168.11.4.123",
+      "20.1.86.15",
+      "20.1.65.51",
+      "168.1.4.84",
+      "21.1.23.101",
+      "168.4.3.173",
+      "168.47.5.10",
+      "21.1.45.248",
+      "168.12.2.114",
+      "168.12.1.156",
+      "20.1.65.208",
+      "20.1.86.124",
+      "15.16.0.7",
+      "20.1.86.144",
+      "20.1.86.17",
+      "168.44.1.213",
+      "168.44.1.211",
+      "168.44.0.236",
+      "168.44.1.146",
+      "21.1.22.115",
+      "20.1.74.32",
+      "10.8.141.143",
+      "21.1.22.202",
+      "21.1.22.33",
+      "168.7.109.66",
+      "168.1.3.84",
+      "10.7.185.209",
+      "21.1.57.38",
+      "20.1.86.10",
+      "21.2.10.33",
+      "21.2.10.96",
+      "21.1.23.107",
+      "21.1.15.177",
+      "168.44.0.45",
+      "21.2.10.39",
+      "168.49.4.250",
+      "21.1.22.58",
+      "21.1.22.33",
+      "21.1.22.35",
+      "21.1.22.34",
+      "21.1.22.202",
+      "21.1.22.23",
+      "21.1.22.14",
+      "21.1.22.17",
+      "21.1.45.218",
+      "21.1.22.11",
+      "21.1.22.12",
+      "21.1.22.13",
+      "21.1.22.19",
+      "21.1.22.15",
+      "21.1.22.62",
+      "21.1.45.216",
+      "21.1.45.204",
+      "21.1.45.211",
+      "21.1.45.210",
+      "21.1.45.144",
+      "21.1.45.214",
+      "21.1.22.61",
+      "21.1.45.141",
+      "21.1.45.237",
+      "21.1.22.192",
+      "21.1.45.4",
+      "21.1.45.128",
+      "21.1.45.212",
+      "21.1.22.214",
+      "21.44.13.46",
+      "21.44.13.42",
+      "21.44.13.45",
+      "21.44.13.43",
+      "21.44.13.44",
+      "21.44.13.40",
+      "21.44.13.39",
+      "21.44.13.37",
+      "21.44.13.41",
+      "21.44.13.36",
+      "21.44.13.35",
+      "21.1.22.200",
+      "21.44.13.33",
+      "21.44.13.34",
+      "21.44.13.32",
+      "21.1.22.97",
+      "21.44.13.28",
+      "21.44.13.29",
+      "21.44.13.30",
+      "21.44.13.27",
+      "21.44.13.23",
+      "21.44.13.24",
+      "21.44.13.25",
+      "21.1.45.150",
+      "21.1.45.168",
+      "21.1.45.132",
+      "21.1.45.131",
+      "21.44.13.20",
+      "21.44.13.21",
+      "21.44.13.19",
+      "21.1.22.2",
+      "21.1.22.194",
+      "21.1.22.48",
+      "21.1.22.198",
+      "21.1.22.46",
+      "21.1.22.47",
+      "21.1.22.112",
+      "21.1.22.188",
+      "21.1.22.193",
+      "21.1.22.219",
+      "21.1.22.195",
+      "21.1.22.24",
+      "21.1.22.21",
+      "21.1.22.22",
+      "20.1.74.32",
+      "21.1.22.115",
+      "21.1.22.36",
+      "20.1.86.29",
+      "168.7.109.54",
+      "21.5.140.166",
+      "20.1.65.13",
+      "21.1.16.155",
+      "20.1.66.41",
+      "21.5.36.188"
+    ],
+    "publicAccountMap": [
+      {
+        "des": "小微公众号",
+        "id": "600000000044",
+        "welcomeMsg": "欢迎关注小微服务！您可以向我咨询有关微办公、微聊和OA的相关问题，很高兴为您解答～",
+        "apiKey": "star-tKknCg5yxYttWmHB0qp9CZwcfshmEkRQ0qTu4IrFLKTPmAE7KV9R1GW3vrXxg",
+        "clientId": "xiaowei",
+        "clientSecret": "mCqqmnI3cOSlwNNDwwtMzA=="
+      },
+      {
+        "des": "智能问答助手公众号",
+        "id": "600000000350",
+        "welcomeMsg": "欢迎关注智能问答助手！",
+        "apiKey": "star-tKknCg5yxYttWmHB0qp9CZwcfshmEkRQ0qTu4IrFLKTPmAE7KV9R1GW3vrXxg",
+        "clientId": "ai-assitant",
+        "clientSecret": "vN2zv81H/nUJoxfR1eqZ0w=="
+      }
+    ],
+    "shareIdParamsList": [
+      {
+        "des": "ecc访问免登陆",
+        "shareId": "y4c6c0js3yt1nenfktrayx1p",
+        "skipAuth": true,
+        "env": ["ecc"]
+      },
+      {
+        "des": "兴云图",
+        "shareId": "48jkq7tenowrq178thprg3gu",
+        "skipAuth": false,
+        "env": ["ecc", "cloud"]
+      },
+      {
+        "des": "脚本审核",
+        "shareId": "dDllvB1JaSvkz9QFvCD5tgQd",
+        "skipAuth": false,
+        "env": ["ecc", "cloud"]
+      }
+    ],
+    "iframeParamsList": [
+      {
+        "des": "运维服务管理系统嵌入的iframe属性",
+        "shareId": "7vqh758nnvgr8fdhwtsqngw6",
+        "iframeKey": "itsm",
+        "active": true,
+        "authType": "message",
+        "canDrag": true,
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "测试1",
+            "key": "shareText",
+            "shareId": "6ay9gfxf07s1o92a24afe9go"
+          },
+          {
+            "des": "故障报告智能助手",
+            "key": "shareText",
+            "shareId": "tynf4138hi2x6r0nuj61nqx1"
+          },
+          {
+            "des": "CMDB",
+            "key": "shareText2",
+            "shareId": "fpz7e8bwa95c3og8fjjiyxi2"
+          },
+          {
+            "des": "运维调用助手",
+            "key": "key3",
+            "shareId": "bkde1dtdo7v6ngtjmp2ms67m"
+          },
+          {
+            "des": "运维调用助手",
+            "key": "key4",
+            "shareId": "49qqwdtgisai89pibzv1jwws"
+          },
+          {
+            "des": "运维建议函",
+            "key": "key5",
+            "shareId": "n7ddzkk8xzhkfuklkovva294"
+          }
+        ]
+      },
+      {
+        "des": "网络处的iframe属性",
+        "shareId": "zpatpo8rt9x0b20pwbm1p7ef",
+        "iframeKey": "netguard",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "脚本审核助手",
+        "shareId": "dDllvB1JaSvkz9QFvCD5tgQd",
+        "iframeKey": "shell_check",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "财务系统的iframe属性",
+        "shareId": "b1nrt063mvexh1amjbp50jpi",
+        "iframeKey": "tax",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "微聊侧边栏的iframe属性",
+        "shareId": "zv9abshwfipz2w0e333qkutp",
+        "iframeKey": "wl",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "DeepSeek",
+            "key": "key1",
+            "shareId": "f1qmqlgwviratjvftq7f04uh"
+          },
+          {
+            "des": "图片解析器",
+            "key": "share14",
+            "shareId": "qcc8zuyflih68rzzlqp42ncr"
+          },
+          {
+            "des": "文档转markdown格式",
+            "key": "share2",
+            "shareId": "11nfwjxa8y89fo59gcw7p45e"
+          },
+          {
+            "des": "文档摘要生成",
+            "key": "share13",
+            "shareId": "81a7q8sfihkun8si8h1qgsk1"
+          },
+          {
+            "des": "自定义智能助手",
+            "key": "share1",
+            "shareId": "zahl74p9p056wrg9mbaw1guw"
+          },
+          {
+            "des": "文本要素提取助手",
+            "key": "share11",
+            "shareId": "e3hc72euziztycp9mpsg5j3i"
+          },
+          {
+            "des": "翻译助手",
+            "key": "share12",
+            "shareId": "6nqq1yuditvw0s7iwstat2bf"
+          },
+          {
+            "des": "需求和问题反馈",
+            "key": "share15",
+            "shareId": "6kibruf2656mvf8uvfm8gm9c"
+          }
+        ]
+      },
+      {
+        "des": "兴云图的iframe属性",
+        "shareId": "48jkq7tenowrq178thprg3gu",
+        "iframeKey": "Z07000",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "文档分析",
+            "key": "key1",
+            "shareId": "48jkq7tenowrq178thprg3gu"
+          }
+        ]
+      },
+      {
+        "des": "财务系统的iframe属性",
+        "shareId": "1px9pbl70jb5yr1qycxs7jzg",
+        "iframeKey": "CWHGXT",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*"
+      },
+      {
+        "des": "云文档嵌入的iframe属性",
+        "shareId": "43h247ple2y5ptj9obp4ngc4",
+        "iframeKey": "yundoc",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "文档分析",
+            "key": "key1",
+            "shareId": "8bt7mia09vg8otcc7x9c86k3"
+          }
+        ]
+      },
+      {
+        "des": "员工作业平台的iframe属性",
+        "shareId": "zv9abshwfipz2w0e333qkutp",
+        "iframeKey": "sppe",
+        "active": true,
+        "defaultLarge": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "智能公文助手",
+            "key": "key12",
+            "shareId": "d9ds9aa5pcjy5e900boivz27"
+          },
+          {
+            "des": "DeepSeek",
+            "key": "key11",
+            "shareId": "f1qmqlgwviratjvftq7f04uh"
+          },
+          {
+            "des": "证照管理助手",
+            "key": "key13",
+            "shareId": "d978jy5nl2c7zqvo7o50gyff"
+          },
+          {
+            "des": "行史",
+            "key": "key1",
+            "shareId": "6wl1cy890nvfyvckplc97gyk"
+          },
+          {
+            "des": "用印",
+            "key": "key1",
+            "shareId": "rcrp3c6usa5z7qkdnn9qol5p"
+          },
+          {
+            "des": "itsm",
+            "key": "key2",
+            "shareId": "7vqh758nnvgr8fdhwtsqngw6"
+          },
+          {
+            "des": "云文档",
+            "key": "key3",
+            "shareId": "43h247ple2y5ptj9obp4ngc4"
+          },
+          {
+            "des": "智能风控助手",
+            "key": "key4",
+            "shareId": "rl39urwpcta64pqrka6xvpmw"
+          },
+          {
+            "des": "财富数据资产助手",
+            "key": "key5",
+            "shareId": "tpb7uuwk52g31lmj3iyaryth"
+          },
+          {
+            "des": "财富合规及消保助手",
+            "key": "share12",
+            "shareId": "iddsedoyyllvmf8aamf1u84o"
+          }
+        ]
+      },
+      {
+        "des": "ecc应用",
+        "shareId": "y4c6c0js3yt1nenfktrayx1p",
+        "iframeKey": "ecc",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "用印嵌入的iframe属性",
+        "shareId": "rcrp3c6usa5z7qkdnn9qol5p",
+        "iframeKey": "stamp",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "同业CRM的iframe属性",
+        "shareId": "xam7nars9o5bwps4v3x6zlvg",
+        "iframeKey": "fims",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "行史嵌入的iframe属性",
+        "shareId": "6wl1cy890nvfyvckplc97gyk",
+        "iframeKey": "history",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "新闻舆情管理的iframe属性",
+        "shareId": "2dwrcev41bi1mwjvxgkfocc9",
+        "iframeKey": "yqgl",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true,
+        "pageInsightExplorers": [
+          {
+            "des": "DeepSeek",
+            "key": "key1",
+            "shareId": "f1qmqlgwviratjvftq7f04uh"
+          }
+        ]
+      },
+      {
+        "des": "天津分行的iframe属性",
+        "shareId": "i76rloyaiyupy4xs6l4krh1x",
+        "iframeKey": "tjfh",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true,
+        "pageInsightExplorers": [
+          {
+            "des": "天津分行人力资源管理小助手",
+            "key": "key1",
+            "shareId": "9whokoc4xsqjdcwvetojut7g"
+          },
+          {
+            "des": "天津分行流程助手",
+            "key": "key2",
+            "shareId": "mek9ch70tukvwt4joxehi7ll"
+          }
+        ]
+      },
+      {
+        "des": "信托的iframe属性",
+        "shareId": "oxvf1xwz1laspo7g7tsiq3jg",
+        "iframeKey": "fts",
+        "active": true,
+        "authType": "message",
+        "parentOrigin": "*",
+        "canDrag": true
+      },
+      {
+        "des": "安全态势感知系统嵌入的iframe属性",
+        "shareId": "ayolytigt7u39z4ylr4uje1d",
+        "iframeKey": "secure",
+        "authType": "message",
+        "active": true,
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "测试1",
+            "key": "share1",
+            "shareId": "ayolytigt7u39z4ylr4uje1d"
+          },
+          {
+            "des": "漏洞查询",
+            "key": "share2",
+            "shareId": "a0363n2clbwslql84okzfqfy"
+          },
+          {
+            "des": "运营值班",
+            "key": "share3",
+            "shareId": "8zw14wqneqjrfofxzija5wmc"
+          }
+        ]
+      },
+      {
+        "des": "智能问答助手",
+        "shareId": "zv9abshwfipz2w0e333qkutp",
+        "iframeKey": "wbg",
+        "authType": "message",
+        "active": true,
+        "parentOrigin": "*",
+        "pageInsightExplorers": [
+          {
+            "des": "DeepSeek",
+            "key": "key1",
+            "shareId": "f1qmqlgwviratjvftq7f04uh"
+          },
+          {
+            "des": "图片解析器",
+            "key": "share14",
+            "shareId": "qcc8zuyflih68rzzlqp42ncr"
+          },
+          {
+            "des": "文档转markdown格式",
+            "key": "share2",
+            "shareId": "11nfwjxa8y89fo59gcw7p45e"
+          },
+          {
+            "des": "内容转标准公文",
+            "key": "share2",
+            "shareId": "a83xTmXRdMPYSZnMOZhLEeZm"
+          },
+          {
+            "des": "总行信用卡中心IT服务",
+            "key": "share12",
+            "shareId": "eiepp5nx14jeyrkvnj1rgjho"
+          },
+          {
+            "des": "翻译助手",
+            "key": "share12",
+            "shareId": "6nqq1yuditvw0s7iwstat2bf"
+          },
+          {
+            "des": "需求和问题反馈",
+            "key": "share15",
+            "shareId": "6kibruf2656mvf8uvfm8gm9c"
+          }
+        ]
+      }
+    ]
+  }
+}

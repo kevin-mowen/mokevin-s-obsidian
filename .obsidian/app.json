@@ -1,0 +1,11 @@
+{
+  "promptDelete": false,
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "rightToLeft": false,
+  "tabSize": 5,
+  "showLineNumber": false,
+  "attachmentFolderPath": "attchment",
+  "alwaysUpdateLinks": true,
+  "openBehavior": "daily"
+}

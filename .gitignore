@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Obsidian — 本地工作区状态（每台机器不同，会冲突）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
+
+# Obsidian 缓存
+.obsidian/cache
+.obsidian/plugins/*/data.json.bak
+
+# Obsidian 回收站
+.trash/
+
+# Claude / IDE 本地配置
+.claude/
+.claudian/
+
+# 临时文件
+*.tmp
+*.swp
+*~
